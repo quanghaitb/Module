@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!--
+/**
+
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Module_Quanghai::banners_slider" title="Module_QuangHai" translate="title" module="Module_Quanghai" sortOrder="20" resource="Module_Quanghai::banners_slider"/>
+        <add id="Module_Quanghai::all_banners" title="POST" translate="title" module="Module_Quanghai" sortOrder="10" resource="Module_Quanghai::all_banners" parent="Module_Quanghai::banners_slider" action="module_quanghai/banner/index"/>
+        <add id="Module_Quanghai::all_groups" title="Groups" translate="title" module="Module_Quanghai" sortOrder="10" resource="Module_Quanghai::all_groups" parent="Module_Quanghai::banners_slider" action="module_quanghai/group/index"/>
+    </menu>
+</config>
